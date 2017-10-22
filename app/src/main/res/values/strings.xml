@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Food Recipe</string>
+    <string-array name="nama_makanan">
+        <item>Nasi Goreng</item>
+        <item>Puding</item>
+        <item>Ca Kangkung</item>
+        <item>Sayur Bayam</item>
+        <item>Sayur Asem</item>
+        <item>Kering Tempe</item>
+    </string-array>
+</resources>

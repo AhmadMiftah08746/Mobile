@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aplikasiku.miftah.foodrecipe.DetailIsiResep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/gambar_resep"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ca_kangkung"/>
+        <TextView
+            android:id="@+id/isi_resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="isi resep"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
